@@ -58,7 +58,56 @@ public class Test {
         System.out.println(c);
         String result = String.format("%.2f", c);
         System.out.println(result);
-                
+        
+        System.out.println("=======================");
+
+        System.out.println(23&2);
+        System.out.println(29&2);
+        System.out.println(14&2);
+        System.out.println(15&2);
+        System.out.println(21&2);
+        System.out.println(6&2);
+        System.out.println(7&2);
+        System.out.println("=======================");
+        System.out.println(23&1);
+        System.out.println(29&1);
+        System.out.println(14&1);
+        System.out.println(15&1);
+        System.out.println(21&1);
+        System.out.println(6&1);
+        System.out.println(7&1);
+        
+        System.out.println("==========TV=============");
+        System.out.println(16&32);
+        System.out.println(24&32);
+        System.out.println(17&32);
+        System.out.println(16&32);
+        System.out.println(16&32);
+        System.out.println(68&32);
+        System.out.println(34&32);
+        System.out.println(24&32);
+        System.out.println("==========ONLINE=============");
+        System.out.println(16&16);
+        System.out.println(24&16);
+        System.out.println(17&16);
+        System.out.println(16&16);
+        System.out.println(16&16);
+        System.out.println(68&16);
+        System.out.println(34&16);
+        System.out.println(24&16);
+        System.out.println("==========XCR=============");
+        System.out.println(16&64);
+        System.out.println(24&64);
+        System.out.println(17&64);
+        System.out.println(16&64);
+        System.out.println(16&64);
+        System.out.println(68&64);
+        System.out.println(34&64);
+        System.out.println(24&64);
     }
 
 }
+
+
+
+
